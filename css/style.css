@@ -236,3 +236,66 @@ body{
 }
 
 /* section testimonials ends */
+
+/* section team starts */
+
+.team {
+    margin-top: 142px;
+}
+.team__cards {
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+}
+.team__card {
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+    padding-top: 50px;
+    min-width: 370px;
+    text-align: center;
+}
+.team__card-img {
+    border: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+.team__member {
+    margin-top: 28px;
+    font-family: "Roboto", sans-serif;
+}
+.team__member-name {
+    color: rgb(30, 14, 98);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.team__member-prof {
+    margin-top: 16px;
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.team__social-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #EBEAED;
+}
+.team__social-items .team__social-item:nth-child(2){
+    border-right: 2px solid #EBEAED;
+    border-left: 2px solid #EBEAED;
+}
+.team__social-item {
+ padding: 20px 50px;
+}
+.team__social-link img{
+    width: 20px;
+    height: auto;
+}
+
+/* section team ends */
