@@ -334,7 +334,7 @@ body{
 }
 .news__content-input {
     padding: 24px 67px 24px 67px;
-    width: 700px;
+    width: 100%;
     box-shadow: 0 2.77px 2.21px 0 rgba(0, 0, 0, 0.02),
                 0 6.65px 5.32px 0 rgba(0, 0, 0, 0.03),
                 0 12.52px 10.02px 0 rgba(0, 0, 0, 0.04),
