@@ -46,6 +46,7 @@ body{
     margin-right: auto;
     padding: 0 10px;
 }
+/* section header starts */
 .header {
     margin-top: 48px;
 }
@@ -90,7 +91,88 @@ body{
     border-radius: 10px;
     color: #fff;
 }
-.login-block__item {
+/* section header ends */
+
+/* section service starts */
+
+.service {
+    margin-top: 82px;
 }
-.login-block__link{
+.service__inner {
 }
+.service__inner-head {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    margin-top: 10px;
+    color: rgb(11, 27, 53);
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 28.5px;
+}
+.subtitle {
+    color: rgb(138, 137, 142);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28.5px;
+    letter-spacing: 5px;
+}
+.service__cards {
+    margin-top: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 57px;
+}
+.service__card {
+    padding: 30px 36px 45px 36px;
+    background-color: #fff;
+    border-radius: 28px;
+    text-align: center;
+    box-shadow: 0px 2.77px 2.21px 0 rgba(0, 0, 0, 0.02),
+                0px 6.65px 5.32px 0 rgba(0, 0, 0, 0.03),
+                0px 12.52px 10.02px 0 rgba(0, 0, 0, 0.04),
+                0px 22.34px 17.87px 0 rgba(0, 0, 0, 0.04),
+                0px 41.78px 33.42px 0 rgba(0, 0, 0, 0.05),
+                0px 100px 80px 0 rgba(0, 0, 0, 0.07);
+    }
+.service__card-img {
+    max-width: 76px;
+    height: 76px;
+}
+.service__card-title {
+    margin-top: 41px;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 28.5px;
+}
+.service__card-text {
+    margin-top: 32px;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+.service .service__card-link {
+    margin-top: 72px;
+    display: inline-block;
+    padding: 11px 36px;
+    background-color: #FF6600;
+    color: #fff;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.5px;
+}
+
+/* section service ends */
