@@ -46,6 +46,30 @@ body{
     margin-right: auto;
     padding: 0 10px;
 }
+.title-subtitle-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    margin-top: 10px;
+    color: rgb(11, 27, 53);
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 28.5px;
+    text-transform: capitalize;
+}
+.subtitle {
+    color: rgb(138, 137, 142);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28.5px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
 /* section header starts */
 .header {
     margin-top: 48px;
@@ -99,28 +123,6 @@ body{
     margin-top: 82px;
 }
 .service__inner {
-}
-.service__inner-head {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-}
-.title {
-    margin-top: 10px;
-    color: rgb(11, 27, 53);
-    font-family: "Roboto", sans-serif;
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 28.5px;
-}
-.subtitle {
-    color: rgb(138, 137, 142);
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 28.5px;
-    letter-spacing: 5px;
 }
 .service__cards {
     margin-top: 108px;
@@ -176,3 +178,61 @@ body{
 }
 
 /* section service ends */
+
+/* section testimonials starts */
+
+.testimonials {
+    margin-top: 146px;
+}
+.testimonials__inner {
+    padding: 0 100px;
+}
+.testmonials__items {
+    margin-top: 136px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+}
+.testimonials__item {
+    padding: 35px 28px 23px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0 30px;
+    max-width: 470px;
+}
+.testimonials__item-img {
+    border-radius: 10px;
+    max-width: 70px;
+    height: auto;
+}
+.testimonials__item-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 179px;
+    flex-basis: 307px;
+
+}
+.testimonials__item-author {
+    color: rgb(11, 27, 53);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 0.3;
+}
+.testimonials__item-text {
+    color: rgb(11, 27, 53);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+
+/* section testimonials ends */
