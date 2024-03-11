@@ -299,3 +299,78 @@ body{
 }
 
 /* section team ends */
+/* section news starts */
+
+.news {
+    margin-top: 110px;
+}
+.news__inner {
+}
+.news__content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0 49px;
+}
+.news__content-img {
+    max-width: 421px;
+    height: auto;
+}
+.news__content-descr {
+    font-family: "Roboto", sans-serif;
+    padding-top: 26px;
+}
+.news__content-text {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.5px;
+    text-align: left;
+}
+.news__content-form {
+    margin-top: 51px;
+}
+.news__content-input {
+    padding: 24px 67px 24px 67px;
+    width: 700px;
+    box-shadow: 0 2.77px 2.21px 0 rgba(0, 0, 0, 0.02),
+                0 6.65px 5.32px 0 rgba(0, 0, 0, 0.03),
+                0 12.52px 10.02px 0 rgba(0, 0, 0, 0.04),
+                0 22.34px 17.87px 0 rgba(0, 0, 0, 0.04),
+                0 41.78px 33.42px 0 rgba(0, 0, 0, 0.05),
+                0 100px 80px 0 rgba(0, 0, 0, 0.07);
+    border-radius: 49px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.5px;
+    letter-spacing: 0%;
+    text-align: left;
+    outline: none;
+}
+.news__content-input::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.5px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news__content-btn {
+    display: block;
+    margin-top: 51px;
+    background-color: #FF6600;
+    padding: 9px 240px;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.5px;
+}
+
+/* section news ends */
