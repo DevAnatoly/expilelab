@@ -117,10 +117,184 @@ body{
 }
 /* section header ends */
 
+/* section hero starts */
+
+.hero {
+    margin-top: 26px;
+}
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0 62px;
+    font-family: "Roboto", sans-serif;
+}
+.hero__content {
+    padding-top: 88px;
+    text-align: left;
+}
+.hero__title {
+    color: rgb(11, 27, 53);
+    font-size: 70px;
+    font-weight: 850;
+    line-height: 81px;
+    max-width: 538px;
+}
+.hero__text {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.5px;
+    max-width: 450px;
+}
+.hero__content-bottom {
+    margin-top: 66px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 103px;
+}
+.hero .hero__btn-1 {
+    padding: 10px 34px;
+    background-color: #FF6600;
+    color: #fff;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.5px;
+}
+.hero .hero__btn-2 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.5px;
+    position: relative;
+}
+.hero__btn-2::before{
+    content: "";
+    background-image: url('../images/learn_icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: -15px;
+    left: -75px;
+}
+.hero__images {
+    position: relative;
+}
+.hero__patch-bussines {
+    position: absolute;
+    left: -613px;
+    top: 42px;
+    padding: 17px 54px 17px 15px;
+    background-color: #fff;
+    border-radius: 12px;
+    width: 275px;
+    height: 73px;
+    box-shadow: 0px 2.77px 2.21px 0px rgba(0, 0, 0, 0.02),
+                0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03),
+                0px 12.52px 10.02px 0px rgba(0, 0, 0, 0.04),
+                0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.04),
+                0px 41.78px 33.42px 0px rgba(0, 0, 0, 0.05),
+                0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+.hero__patch-bussines-img{
+    float: left;
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 18px;
+}
+.hero__patch-bussines-title,
+.hero__patch-client-title {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.hero__patch-bussines-rank,
+.hero__patch-client-rank {
+    margin-top: 7px;
+    margin-left: 88px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    position: relative;
+}
+.hero__patch-bussines-rank::before,
+.hero__patch-client-rank::before{
+    content: "";
+    background-image: url('../images/star.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    top: -3px;
+    left: -28px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.hero__patch-bussines-rank::after,
+.hero__patch-client-rank::after{
+    content: "(1520 Reviews)";
+    color: rgb(138, 137, 142);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-left: 8px;
+}
+.hero__patch-client {
+    position: absolute;
+    left: -685px;
+    top: 461px;
+    padding: 17px 54px 17px 15px;
+    background-color: #fff;
+    border-radius: 12px;
+    width: 220px;
+    height: 73px;
+    box-shadow: 0px 2.77px 2.21px 0px rgba(0, 0, 0, 0.02),
+                0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03),
+                0px 12.52px 10.02px 0px rgba(0, 0, 0, 0.04),
+                0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.04),
+                0px 41.78px 33.42px 0px rgba(0, 0, 0, 0.05),
+                0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+.hero__patch-client-title {
+}
+.hero__patch-client-rank {
+    margin-left: 30px;
+}
+.hero__patch-client-rank::after{
+    content: "(15k Reviews)";
+}
+.hero__image-lamp {
+    position: absolute;
+    top: 227px;
+    left: -684px;
+}
+.hero__image-arrow {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+.hero__image-hero{
+    position: absolute;
+    top: 24px;
+    right: -155px;
+    
+}
+
+/* sectioin hero ends */
+
 /* section service starts */
 
 .service {
-    margin-top: 82px;
+    margin-top: 160px;
 }
 .service__inner {
 }
