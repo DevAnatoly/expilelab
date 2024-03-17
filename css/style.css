@@ -81,12 +81,35 @@ body{
     gap: 0 114px;
     font-family: "Roboto", sans-serif;
     color: #000;
+    font-size: 16px;
+}
+.mobile-menu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 0;
+}
+.mobile-menu:hover{
+    cursor: pointer;
+}
+.mobile-menu span{
+    background-color: #000;
+    width: 30px;
+    height: 2px;
 }
 .menu__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 0 40px;
+}
+.close{
+    display: none;
+    font-size: 25px;
+    right: 20px;
+    top: 0;
+    position: absolute;
+    cursor: pointer;
 }
 .menu__item {
 }
@@ -582,6 +605,7 @@ body{
                 0 41.78px 33.42px 0 rgba(0, 0, 0, 0.05),
                 0 100px 80px 0 rgba(0, 0, 0, 0.07);
     border-radius: 49px;
+    border: none;
     color: rgb(0, 0, 0);
     font-size: 24px;
     font-weight: 400;
@@ -659,3 +683,84 @@ body{
 }
 
 /* footers ends */
+
+@media (max-width: 1400px){
+
+}
+@media (max-width: 1024px){
+    .header__inner {
+        font-size: 14px;
+        gap: 0;
+        justify-content: space-between;
+    }
+    .logo-img{
+        width: 150px;
+        height: auto;
+    }
+    .menu__list {
+        gap: 0 30px;
+    }
+    .login-block .login-block__item:nth-child(2) {
+        padding: 8px 26px;
+    }
+    .login-block {
+        flex-grow: 0;
+    }
+}
+@media (max-width: 768px){
+    .header {
+        margin-top: 25px;
+    }
+    .header__inner{
+        position: relative;
+    }
+    .logo-img {
+        width: 130px;
+        height: auto;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+    .menu__list {
+        background-color: #FFF;
+        padding: 20px 0;
+        flex-direction: column;
+        gap: 40px 0px;
+        position: absolute;
+        top: -350px;
+        /* left: 0px; */
+        width: 100%;
+        z-index: 5;
+        font-size: 24px;
+        /* right: auto; */
+        transition: top .5s ease;
+    }
+    .open{
+        top: 0;
+    }
+    .close{
+        display: block;
+    }
+    .login-block {
+        gap: 0 18px;
+    }
+}
+@media (max-width: 576px){
+    .logo-img {
+        width: 100px;
+        height: auto;
+    }
+    .login-block {
+        gap: 0 16px;
+    }
+    .login-block .login-block__item:nth-child(2) {
+        padding: 7px 22px;
+    }
+}
+@media (max-width: 375px){
+    .login-block .login-block__item:nth-child(2) {
+    padding: 7px 15px;}
+    .logo{
+        display: none;
+    }
+}
